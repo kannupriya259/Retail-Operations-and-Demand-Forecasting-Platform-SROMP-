@@ -20,3 +20,9 @@
    ```bash
    git clone https://github.com/your-username/SROMP.git
    cd SROMP
+Tech Stack:
+Backend: Python, Flask (REST API)
+Database: PostgreSQL
+Forecasting Model: Holt-Winters Seasonal Model (statsmodels library)
+Optimization Techniques: Indexing, Query Caching
+API Testing: Postman, PyTest
