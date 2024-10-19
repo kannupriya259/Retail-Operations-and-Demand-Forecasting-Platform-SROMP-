@@ -1,0 +1,24 @@
+SROMP/
+│
+├── README.md
+├── requirements.txt
+├── LICENSE
+├── .gitignore
+├── api/
+│   ├── app.py
+│   ├── inventory.py
+│   ├── sales.py
+│   ├── demand_forecasting.py
+│   └── utils.py
+├── db/
+│   ├── schema.sql
+│   └── db_setup.py
+├── models/
+│   ├── holt_winters.py
+│   └── forecasting_model.pkl
+├── scripts/
+│   └── optimize_queries.py
+├── tests/
+│   └── test_api.py
+└── data/
+    └── sales_data.csv
